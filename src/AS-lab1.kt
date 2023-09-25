@@ -28,7 +28,7 @@ fun ploshad(){
     print("Введи площадь прямоугольного треугольника : ")
     val s = readLine()!!.toInt()
     val k = sqrt( s/0.5)
-    val g = sqrt(((k*k)+(k*k)).toDouble())
+    val g = sqrt(((k*k)+(k*k)))
     println ("Катет равен: $k")
     println ("Гепотенуза равна: $g")
 }
