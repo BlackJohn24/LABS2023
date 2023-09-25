@@ -4,7 +4,7 @@ import kotlin.math.sqrt
 
 fun main() {
     catet()
-    gepotenusa()
+    gepotinusa()
     ploshad()
 
 }
@@ -16,7 +16,7 @@ fun catet(){
     println ("Гепотенуза равна: $g")
     println ("Площадь треугольника: $s")
 }
-fun gepotenusa(){
+fun gepotinusa(){
     print("Введи гепотенузу прямоугольного треугольника : ")
     val m = readLine()!!.toDouble()
     val k = sin(45 * PI / 180)*m
